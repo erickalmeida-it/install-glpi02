@@ -8,9 +8,9 @@ Baixando,descompactando o script e entrando no diretório:
 
     wget https://codeload.github.com/erickalmeida-it/install-glpi02/zip/refs/heads/main
 
-    unzip install-glpi02-main.zip
+    unzip main.zip
 
-    cd install-glpi02-main
+    cd main
 
 Tornando o script executável:
 
