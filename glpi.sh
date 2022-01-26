@@ -29,6 +29,7 @@ apt install bash-completion chrony xz-utils libarchive-tools bzip2 unzip curl se
 apt install apache2 libapache2-mod-php php-soap php-cas -y
 apt install php-{apcu,curl,gd,imap,ldap,mysql,xmlrpc,xml,mbstring,bcmath,intl,zip,bz2} -y
 apt install php-mail libphp-phpmailer -y
+apt install mariadb-server -y
 
 # BAIXAR, EXTRAIR, MOVER E APAGAR DOWNLOAD DO GLPI 
 
