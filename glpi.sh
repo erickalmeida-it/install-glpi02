@@ -3,7 +3,7 @@
 # Criado por: Erick Almeida
 # Data de Criacao: 26/01/2022
 # Ultima Modificacao: 26/01/2022
-# Compativél com o Ubuntu 18.04 (Homologado)
+# Compativél com o Ubuntu 20.04 (Homologado)
 
 echo -e "\e[01;31m                    SCRIPT DE INSTALAÇÃO PARA O GLPI - INTERATIVO - UBUNTU SERVER 20.04     \e[00m"
 echo -e "\e[01;31m                                       Tecle <ENTER> para iniciar...                        \e[00m"
@@ -25,10 +25,10 @@ echo -e "\e[01;31m                                          INSTALANDO DEPENDENC
 echo -e "\e[01;31m                                       Tecle <ENTER> para continuar...                       \e[00m"
 read #pausa até que o ENTER seja pressionado
 
-apt install bash-completion chrony xz-utils libarchive-tools bzip2 unzip curl sendmail
-apt install apache2 libapache2-mod-php php-soap php-cas 
-apt install php-{apcu,curl,gd,imap,ldap,mysql,xmlrpc,xml,mbstring,bcmath,intl,zip,bz2}
-apt install php-mail libphp-phpmailer 
+apt install bash-completion chrony xz-utils libarchive-tools bzip2 unzip curl sendmail -y
+apt install apache2 libapache2-mod-php php-soap php-cas -y
+apt install php-{apcu,curl,gd,imap,ldap,mysql,xmlrpc,xml,mbstring,bcmath,intl,zip,bz2} -y
+apt install php-mail libphp-phpmailer -y
 
 # BAIXAR, EXTRAIR, MOVER E APAGAR DOWNLOAD DO GLPI 
 
