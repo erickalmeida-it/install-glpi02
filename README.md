@@ -6,11 +6,11 @@ Baixando,descompactando o script e entrando no diretório:
 
     sudo apt install zip -y
 
-    wget https://github.com/erickalmeida-it/install-glpi/archive/master.zip
+    wget https://codeload.github.com/erickalmeida-it/install-glpi02/zip/refs/heads/main
 
-    unzip master.zip
+    unzip install-glpi02-main.zip
 
-    cd install-glpi-master
+    cd install-glpi02-main
 
 Tornando o script executável:
 
