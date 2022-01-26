@@ -79,7 +79,7 @@ echo -e "\e[01;31m                                       Tecle <ENTER> para cont
 read #pausa até que o ENTER seja pressionado
 
 
-echo "GLPI *:72
+echo "
 <VirtualHost *:72> 
   DocumentRoot /var/www/glpi
   #ServerName localhost
